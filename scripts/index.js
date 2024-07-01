@@ -23,3 +23,18 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+document
+  .getElementById("registrationForm")
+  .addEventListener("submit", function (event) {
+    const pwd = document.getElementById("pwd").value;
+    const cpwd = document.getElementById("cpwd").value;
+    const errorElement = document.getElementById("passwordMatchError");
+
+    if (pwd !== cpwd) {
+      errorElement.textContent = "Hesla se neshodují";
+      event.preventDefault();
+    } else {
+      errorElement.textContent = "";
+    }
+  });
