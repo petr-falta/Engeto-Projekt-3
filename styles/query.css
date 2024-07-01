@@ -157,6 +157,13 @@
     margin-bottom: 1rem;
   }
 
+  .half {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .nav-left {
     padding: 0 1rem;
   }

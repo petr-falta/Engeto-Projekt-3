@@ -603,6 +603,7 @@ nav ul li a:hover {
 }
 
 .refferal {
+  height: 200px;
   width: calc(33% - 10px);
   display: flex;
   align-items: end;
@@ -1209,4 +1210,43 @@ footer a:hover {
 .switcher-menu button {
   background-color: transparent;
   padding: 4px 0 0 0;
+}
+
+/*REGISTRATION FORM*/
+.registration {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.half {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image1 {
+  background-image: url("../images/hero_bg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  object-fit: cover;
+}
+
+.image2 {
+  background-image: url("../images/bezpecivasichdat.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  object-fit: cover;
+}
+
+.image3 {
+  background-image: url("../images/promotion_bg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  object-fit: cover;
 }
