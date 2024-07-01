@@ -1,0 +1,274 @@
+@media (max-width: 1131px) {
+  nav ul li a {
+    padding: 17px 5.5px;
+  }
+}
+
+@media (max-width: 992px) {
+  :root {
+    --container-max-width: 95%;
+    --h1-font-size: 3.3rem;
+    --h2-font-size: 2.2rem;
+    --h3-font-size: 2rem;
+    --big-font-size: 1rem;
+  }
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 70px;
+    left: 0;
+    background-color: var(--color-0);
+    width: 100%;
+    border-radius: var(--border-radius);
+    padding: 2rem 2rem;
+    align-items: center;
+    filter: var(--drop-shadow-filter);
+    z-index: 50;
+  }
+
+  .mobile-menu .button {
+    margin: 1rem auto;
+    border-bottom: none;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .mobile-menu li a {
+    font-size: 1.1rem;
+    padding: 1rem 3rem;
+    border-bottom: 1px solid var(--color-light-grey);
+  }
+
+  .mobile-menu li {
+    width: 100%;
+  }
+
+  .list-menu {
+    display: none;
+  }
+
+  .menu-button {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+
+  .price-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+  }
+
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4,
+  .item-5 {
+    grid-column: 1 / 2;
+    grid-row: auto;
+  }
+  .refferal {
+    width: calc(50% - 10px);
+  }
+  .order-section {
+    flex-direction: column;
+  }
+
+  .order-left-section {
+    width: 100%;
+    padding: 3rem 2rem;
+  }
+
+  .order-right-section {
+    width: 100%;
+    padding: 3rem 2rem;
+    border-radius: 0;
+    border-left: none;
+    border-top: 1px solid var(--border-color);
+  }
+
+  #webhosting-details .price-list {
+    margin-top: 0;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 767.98) {
+  .cta-1-section h2 {
+    font-size: 2rem;
+  }
+  .faq-section {
+    padding: 30px 0 30px 0;
+  }
+
+  .accordions-control {
+    padding: 30px;
+  }
+
+  .accordions-title {
+    font-size: var(--h4-font-size);
+  }
+  .accordions-content {
+    padding: 0 30px 0 30px;
+  }
+  .open .accordions-content {
+    padding: 20px 30px;
+  }
+
+  .refferal {
+    width: 100%;
+  }
+
+  .refferals {
+    flex-direction: column;
+  }
+
+  .order-section {
+    flex-direction: column;
+  }
+
+  .order-left-section {
+    width: 100%;
+    padding: 3rem 2rem;
+  }
+
+  .order-right-section {
+    width: 100%;
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 479.98px) {
+  :root {
+    --section-padding: 3rem 2rem;
+  }
+
+  section {
+    padding-bottom: 5rem;
+  }
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  .nav-left {
+    padding: 0 1rem;
+  }
+
+  .main-hero {
+    border-radius: 0;
+  }
+
+  .item-1 {
+    padding-bottom: 0;
+  }
+
+  .promotion {
+    padding: 3rem 2rem;
+  }
+
+  .refferal {
+    padding: 3rem 2rem;
+  }
+
+  .cta-1-section {
+    margin: 0 auto 5rem auto;
+  }
+
+  .cta-1-section h2 {
+    font-size: 2rem;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .benefits {
+    gap: 0.5rem;
+    align-items: start;
+    font-size: 0.9rem;
+  }
+  .faq-list {
+    gap: 1rem;
+  }
+  .accordions-control {
+    padding: 20px;
+  }
+  .accordions-icon {
+    flex: 0 0 32px;
+    display: flex;
+    width: 32px;
+    height: 32px;
+  }
+  .accordions-icon::before {
+    width: 15px;
+    height: 2px;
+  }
+  .accordions-icon::after {
+    width: 15px;
+    height: 2px;
+  }
+  .accordions-content {
+    padding: 0 20px 0 20px;
+  }
+  .open .accordions-content {
+    padding: 0px 20px 20px 20px;
+  }
+  .refferal {
+    width: 100%;
+  }
+
+  .order-section {
+    flex-direction: column;
+  }
+
+  .order-left-section {
+    width: 100%;
+    padding: 3rem 2rem;
+  }
+
+  .order-right-section {
+    width: 100%;
+    padding: 3rem 2rem;
+    gap: 3rem;
+  }
+
+  .two-columns {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .two-columns > * {
+    width: 100%;
+  }
+
+  .three-columns {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .three-columns > * {
+    width: 100%;
+  }
+
+  footer {
+    border-radius: 0;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .footer-section ul {
+    gap: 1rem;
+    flex-direction: column;
+  }
+}
